@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    box-sizing: border-box;
+    width: 336px;
+    min-height: 236px;
+    margin: 232px auto;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+
+.header{
+    background-color: #FFDC40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 28px;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.gray-filter-picture{
+    margin-left: 280px;
+}
+
+#listName{
+    box-sizing: border-box;
+    width: 286px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    margin-left: 28px;
+}
+
+#listName:focus{
+    outline: none;
+    border-color: #c5d1df;
+}
+
+.remove-picture{
+    position: absolute;
+    top: 9px;
+    left: 286px;
+}
+
+.remove:active,
+.edit:active{
+    background-color: #833AE0;
+    border-radius: 50%;
+    stroke: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.allButton{
+    margin-bottom: 19px;
+    margin-left: 92px;
+}
+
+#button{
+    width: 150px;
+    height: 42px;
+    background-color: #833AE0;
+    color: white;
+    border: none;
+    border-radius: 71px;
+}
+
+.plus{
+    width: 42px;
+    height: 42px;
+    background-color: #9953F1;
+    border: none;
+    color: white;
+    border-radius: 71px;
+    position: absolute;
+}
+
+.do-list{
+    display: none;
+    width: 268px;
+    padding: 8px;
+    border: 1px solid #C4C4C4;
+    border-top-style: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 0;
+    margin-left: 28px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.list-item-self {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.click-button{
+    display: flex;
+    font-size: 15px;
+}
+
+.edit{
+    color: #C4C4C4;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 7px;
+    width: 7px;
+    height: 19px;
+}
+
+.filter-up{
+    display: none;
+    margin-bottom: 4px;
+}
